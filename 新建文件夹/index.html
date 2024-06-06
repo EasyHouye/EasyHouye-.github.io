@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页-示范站</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('img/识别模块/背景.png');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column; /* 垂直方向排列 */
+            align-items: center;
+            height: 100vh; /* 设置高度以确保页面内容垂直居中 */
+            justify-content: center; /* 新增：垂直居中 */
+        }
+        .box {
+            background-image: url('img/识别模块/圆圈.png');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: space-evenly; /* 按钮之间平均分布 */
+            align-items: center; /* 垂直居中 */
+            width: 90%;
+            height: 30%;
+        }
+        .box a{
+            margin: 5%;
+            flex: 1;
+            text-align: center; /* 文字水平居中 */
+
+            display: inline-block;
+            width: 25%;
+            height: 100%;
+        }
+        .box a img {
+            max-width: 100%; /* 图片最大宽度100% */
+            max-height: auto; /* 图片最大高度100% */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <a href="./a种质资源开发利用/a_index.html"></a>
+        <a href="./b绿色高效养殖/b_index.html"></a>
+        <a href="./c重大疫病防控/c_index.html"></a>
+        <a href="https://aiem-000117.plc-tek.com:20016/#/dashboard/singlePage"></a>
+
+    </div>
+</body>
+</html>
